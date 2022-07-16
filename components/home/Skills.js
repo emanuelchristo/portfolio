@@ -1,3 +1,5 @@
+import Button from 'components/common/Button'
+
 import styles from './skills.module.css'
 
 export default function Skills() {
@@ -52,6 +54,9 @@ export default function Skills() {
 						</div>
 					</div>
 				</div>
+				<button className='flex items-center justify-center gap-2 w-[180px] mx-auto mt-[64px]'>
+					Projects <img src='/icons/right-arrow.svg' />
+				</button>
 			</div>
 		</div>
 	)
