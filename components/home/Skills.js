@@ -1,5 +1,3 @@
-import Button from 'components/common/Button'
-
 import styles from './skills.module.css'
 
 export default function Skills() {

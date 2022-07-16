@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Skills from 'components/home/Skills'
 import Projects from 'components/home/Projects'
+import Education from 'components/home/Education'
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<div className='py-[120px] flex flex-col gap-[240px]'>
 				<Skills />
 				<Projects />
+				<Education />
 			</div>
 		</>
 	)
