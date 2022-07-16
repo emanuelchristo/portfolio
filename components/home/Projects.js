@@ -1,19 +1,20 @@
 import { projects } from 'data/projects'
 
+import SectionHeader from 'components/common/SectionHeader'
+
 import styles from './projects.module.css'
 
 export default function Projects() {
 	return (
 		<div className='margin'>
 			<div className={styles['projects']}>
-				<div className={styles['header-wrapper']}>
-					<div className='flex items-center'>
-						<img className={styles['header-image']} src='/images/projects.png' />
-						<h3 className='word-heading'>Projects</h3>
-					</div>
-					<h2 className='mt-3 mb-4 smaller-h2'>Take a look at my works</h2>
-					<p className='section-description'>Suspendisse tellus dictum urna ut netus</p>
-				</div>
+				<SectionHeader
+					title='Take a look at my works'
+					tag='Projects'
+					description='Suspendisse tellus dictum urna ut netus'
+					imageUrl='/images/projects.png'
+					type='left'
+				/>
 				<div className={styles['cards-grid']}>
 					{projects.map((p, index) => (
 						<ProjectCard

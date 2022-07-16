@@ -1,0 +1,14 @@
+.header-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-image {
+	width: 64px;
+	margin-right: 16px;
+}
+
+.center {
+	align-items: center;
+	text-align: center;
+}

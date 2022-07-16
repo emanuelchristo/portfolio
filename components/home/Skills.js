@@ -1,17 +1,18 @@
+import SectionHeader from 'components/common/SectionHeader'
+
 import styles from './skills.module.css'
 
 export default function Skills() {
 	return (
 		<div className='margin'>
 			<div className={styles['skills']}>
-				<div className={styles['header-wrapper']}>
-					<div className='flex items-center'>
-						<img className={styles['header-image']} src='/images/skills.png' />
-						<h3 className='word-heading'>Skills</h3>
-					</div>
-					<h2 className='mt-3 mb-4'>Things I can do</h2>
-					<p className='section-description'>Learning new things everyday...</p>
-				</div>
+				<SectionHeader
+					title='Things I can do'
+					tag='Skills'
+					description='Learning new things everyday...'
+					imageUrl='/images/skills.png'
+					type='center'
+				/>
 				<div className={styles['cards-grid']}>
 					<div className={styles['card']}>
 						<div className={styles['icon-wrapper'] + ' ' + styles['frontend']}>

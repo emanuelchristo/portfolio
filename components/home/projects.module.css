@@ -1,18 +1,8 @@
-.header-wrapper {
-	display: flex;
-	flex-direction: column;
-}
-
-.header-image {
-	width: 64px;
-	margin-right: 16px;
-}
-
 .cards-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 24px;
-	margin-top: 64px;
+	margin-top: 72px;
 }
 
 .project-card {

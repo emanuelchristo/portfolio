@@ -1,19 +1,21 @@
 import { education } from 'data/education'
 
+import SectionHeader from 'components/common/SectionHeader'
+
 import styles from './education.module.css'
 
 export default function Education() {
 	return (
 		<div className='margin'>
 			<div className={styles['education']}>
-				<div className={styles['header-wrapper']}>
-					<div className='flex items-center'>
-						<img className={styles['header-image']} src='/images/projects.png' />
-						<h3 className='word-heading'>Education</h3>
-					</div>
-					<h2 className='mt-3 mb-4 smaller-h2'>Where I learned stuff</h2>
-					<p className='section-description'>Apart from the internet of course!</p>
-				</div>
+				<SectionHeader
+					title='Where I learned stuff'
+					tag='Education'
+					description='Apart from the internet ofcourse!'
+					imageUrl='/images/education.png'
+					type='left'
+				/>
+
 				<div className={styles['cards-grid']}>
 					{education.map((e, index) => (
 						<EducationCard

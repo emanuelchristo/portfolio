@@ -1,19 +1,20 @@
 import { socialLinks } from 'data/social-links'
 
+import SectionHeader from 'components/common/SectionHeader'
+
 import styles from './contact.module.css'
 
 export default function Contact() {
 	return (
 		<div className='margin'>
 			<div className={styles['languages']}>
-				<div className={styles['header-wrapper']}>
-					<div className='flex items-center'>
-						<img className={styles['header-image']} src='/images/contact.png' />
-						<h3 className='word-heading'>Contact</h3>
-					</div>
-					<h2 className='mt-3 mb-4'>Let&apos;s talk</h2>
-					<p className='section-description'>Wanna hire me? Or got some questions?</p>
-				</div>
+				<SectionHeader
+					title="Let's Talk"
+					tag='Contact'
+					description='Wanna hire me? Or got some questions?'
+					imageUrl='/images/contact.png'
+					type='center'
+				/>
 				<a href='mailto:'>
 					<div className='my-[64px] mx-auto flex items-center w-fit'>
 						<div className={styles['email-icon-wrapper']}>

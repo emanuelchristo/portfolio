@@ -1,17 +1,19 @@
+import SectionHeader from 'components/common/SectionHeader'
+
 import styles from './languages.module.css'
 
 export default function Langauages() {
 	return (
 		<div className='margin'>
 			<div className={styles['languages']}>
-				<div className={styles['header-wrapper']}>
-					<div className='flex items-center'>
-						<img className={styles['header-image']} src='/images/language.png' />
-						<h3 className='word-heading'>Languages</h3>
-					</div>
-					<h2 className='mt-3 mb-4'>I speak and understand</h2>
-					<p className='section-description'>Congue vulputate ut consequat nunc elementum amet</p>
-				</div>
+				<SectionHeader
+					title='I speak and understand'
+					tag='Languages'
+					description='Congue vulputate ut consequat nunc elementum amet'
+					imageUrl='/images/language.png'
+					type='center'
+				/>
+
 				<div className={styles['cards-grid']}>
 					<div className={styles['card']}>
 						<div className={styles['icon-wrapper'] + ' ' + styles['english']}>
