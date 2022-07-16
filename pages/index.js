@@ -3,6 +3,7 @@ import Skills from 'components/home/Skills'
 import Projects from 'components/home/Projects'
 import Education from 'components/home/Education'
 import Langauages from 'components/home/Languages'
+import Contact from 'components/home/Contact'
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 				<Projects />
 				<Education />
 				<Langauages />
+				<Contact />
 			</div>
 		</>
 	)
