@@ -2,6 +2,10 @@ h2 {
 	font-size: 80px;
 	font-weight: 700;
 }
+.smaller-h2 {
+	font-size: 72px;
+	line-height: 1.25;
+}
 
 .word-heading {
 	font-size: 40px;

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Skills from 'components/home/Skills'
+import Projects from 'components/home/Projects'
 
 export default function Home() {
 	return (
@@ -10,8 +11,9 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='py-[120px]'>
+			<div className='py-[120px] flex flex-col gap-[240px]'>
 				<Skills />
+				<Projects />
 			</div>
 		</>
 	)

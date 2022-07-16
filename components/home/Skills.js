@@ -54,7 +54,7 @@ export default function Skills() {
 						</div>
 					</div>
 				</div>
-				<button className='flex items-center justify-center gap-2 w-[180px] mx-auto mt-[64px]'>
+				<button className='w-[180px] mx-auto mt-[64px]'>
 					Projects <img src='/icons/right-arrow.svg' />
 				</button>
 			</div>
