@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Skills from 'components/home/Skills'
 import Projects from 'components/home/Projects'
 import Education from 'components/home/Education'
+import Langauages from 'components/home/Languages'
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 				<Skills />
 				<Projects />
 				<Education />
+				<Langauages />
 			</div>
 		</>
 	)
