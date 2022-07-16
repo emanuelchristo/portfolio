@@ -1,0 +1,15 @@
+:root {
+	--border-color: #d6e5ed;
+	--text-grey: #949494;
+	--text-light: #879ba6;
+
+	--blue-gradient: linear-gradient(319.59deg, #0046fa 6.98%, #48d3ff 91%);
+	--green-gradient: linear-gradient(318.29deg, #00b929 10.78%, #afff06 88.71%);
+	--purple-gradient: linear-gradient(319.59deg, #6100ff 6.98%, #ba48ff 91%);
+	--orange-gradient: linear-gradient(319.59deg, #ff0000 6.98%, #fbff48 91%);
+
+	--blue-shadow-color: rgba(75, 190, 255, 0.71);
+	--green-shadow-color: rgba(176, 255, 75, 0.65);
+	--purple-shadow-color: rgba(125, 64, 255, 0.5);
+	--orange-shadow-color: rgba(255, 150, 91, 0.74);
+}

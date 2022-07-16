@@ -1,0 +1,14 @@
+h2 {
+	font-size: 80px;
+	font-weight: 700;
+}
+
+.word-heading {
+	font-size: 40px;
+	font-weight: 600;
+	color: var(--text-grey);
+}
+
+.section-description {
+	font-size: 24px;
+}

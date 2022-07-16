@@ -1,0 +1,63 @@
+.header-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.header-image {
+	width: 64px;
+	margin-right: 16px;
+}
+
+.cards-grid {
+	margin-top: 64px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+}
+
+.card {
+	border: 1px solid var(--border-color);
+	border-radius: 12px;
+	padding: 24px 40px;
+	display: flex;
+	align-items: center;
+	height: 170px;
+}
+
+.icon-wrapper {
+	display: grid;
+	place-content: center;
+	border-radius: 50%;
+	width: 56px;
+	height: 56px;
+	background: var(--blue-gradient);
+	box-shadow: 0 8px 18px var(--blue-shadow-color);
+	margin-right: 16px;
+}
+.icon-wrapper img {
+	width: 30px;
+	height: 30px;
+}
+.skill-title {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.25;
+}
+.skill-description {
+	color: var(--text-light);
+}
+
+.backend {
+	background: var(--purple-gradient);
+	box-shadow: 0 8px 18px var(--purple-shadow-color);
+}
+.uiux {
+	background: var(--green-gradient);
+	box-shadow: 0 8px 18px var(--green-shadow-color);
+}
+.graphic-design {
+	background: var(--orange-gradient);
+	box-shadow: 0 8px 18px var(--orange-shadow-color);
+}

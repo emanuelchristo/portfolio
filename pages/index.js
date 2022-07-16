@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Skills from 'components/home/Skills'
 
 export default function Home() {
 	return (
@@ -9,8 +10,8 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div>
-				<h1 className=' font-bold text-6xl'>Hello Next.js</h1>
+			<div className='py-[120px]'>
+				<Skills />
 			</div>
 		</>
 	)
