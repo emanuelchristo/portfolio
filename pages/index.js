@@ -4,6 +4,7 @@ import Projects from 'components/home/Projects'
 import Education from 'components/home/Education'
 import Langauages from 'components/home/Languages'
 import Contact from 'components/home/Contact'
+import Footer from 'components/home/Footer'
 
 export default function Home() {
 	return (
@@ -14,12 +15,13 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='py-[120px] flex flex-col gap-[240px]'>
+			<div className='pt-[120px] flex flex-col gap-[240px]'>
 				<Skills />
 				<Projects />
 				<Education />
 				<Langauages />
 				<Contact />
+				<Footer />
 			</div>
 		</>
 	)

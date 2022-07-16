@@ -1,0 +1,17 @@
+.footer {
+	background-color: #f9fbfc;
+	border-top: 1px solid var(--border-color);
+	height: 86px;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 24px;
+}
+
+.copy {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: var(--text-light);
+}
