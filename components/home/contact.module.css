@@ -60,3 +60,20 @@
 	background: var(--whatsapp-gradient);
 	box-shadow: 0px 8px 18px var(--whatsapp-shadow-color);
 }
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 639px) {
+	.email {
+		font-size: 28px;
+	}
+
+	.social-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		height: auto;
+		padding: 32px;
+		gap: 32px;
+	}
+}

@@ -40,3 +40,28 @@
 .education-year {
 	font-weight: 500;
 }
+
+@media (max-width: 767px) {
+	.cards-grid {
+		gap: 18px;
+		margin-top: 56px;
+	}
+	.image-wrapper {
+		margin-bottom: 22px;
+	}
+	.education-title {
+		font-size: 24px;
+	}
+	.education-card {
+		padding: 28px;
+	}
+}
+
+@media (max-width: 639px) {
+	.cards-grid {
+		grid-template-columns: 1fr;
+	}
+	.education-card {
+		padding: 28px 22px;
+	}
+}

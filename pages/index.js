@@ -19,7 +19,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='pt-[120px] flex flex-col gap-[240px]'>
+			<div className='pt-[120px] flex flex-col gap-[220px] md:gap-[160px]'>
 				<Skills />
 				<Coding />
 				<Projects />

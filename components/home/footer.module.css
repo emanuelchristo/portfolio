@@ -11,7 +11,29 @@
 }
 
 .copy {
-	font-size: 14px;
-	text-transform: uppercase;
-	color: var(--text-light);
+	font-size: 16px;
+	color: rgb(162, 184, 190);
+}
+
+.content-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+@media (max-width: 639px) {
+	.footer {
+		height: 120px;
+	}
+	.content-wrapper {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.copy {
+		font-size: 15px;
+	}
+	.logo {
+		height: 22px;
+	}
 }

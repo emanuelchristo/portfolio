@@ -6,7 +6,7 @@ import styles from './projects.module.css'
 
 export default function Projects() {
 	return (
-		<div className='margin'>
+		<div className='margin-wide'>
 			<div className={styles['projects']}>
 				<SectionHeader
 					title='Take a look at my works'

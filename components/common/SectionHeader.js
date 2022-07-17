@@ -10,7 +10,7 @@ export default function SectionHeader({ imageUrl, tag, title, description, type 
 						<h3 className='word-heading'>{tag}</h3>
 					</div>
 					<h2 className='mt-3 mb-4'>{title}</h2>
-					<p className='section-description'>{description}</p>
+					<p className='section-description px-4'>{description}</p>
 				</div>
 			)}
 

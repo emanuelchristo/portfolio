@@ -23,7 +23,7 @@
 	display: grid;
 	place-content: center;
 	border-radius: 50%;
-	width: 65px;
+	width: 64px;
 	height: 64px;
 	background: var(--blue-gradient);
 	box-shadow: 0 8px 18px var(--blue-shadow-color);
@@ -54,4 +54,29 @@
 .hindi {
 	background: var(--light-blue-gradient);
 	box-shadow: 0 8px 18px var(--light-blue-shadow-color);
+}
+
+@media (max-width: 767px) {
+	.cards-grid {
+		margin-top: 52px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+	.card {
+		flex: 1;
+		height: 220px;
+		min-width: 158px;
+	}
+	.icon-wrapper {
+		width: 60px;
+		height: 60px;
+	}
+	.icon-wrapper img {
+		width: 30px;
+		height: 30px;
+	}
+	.language-title {
+		font-size: 21px;
+	}
 }
