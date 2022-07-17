@@ -13,7 +13,7 @@ export default function Projects() {
 					tag='Projects'
 					description='Suspendisse tellus dictum urna ut netus'
 					imageUrl='/images/projects.png'
-					type='left'
+					type='center'
 				/>
 				<div className={styles['cards-grid']}>
 					{projects.map((p, index) => (

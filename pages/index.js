@@ -5,6 +5,7 @@ import Education from 'components/home/Education'
 import Langauages from 'components/home/Languages'
 import Contact from 'components/home/Contact'
 import Footer from 'components/home/Footer'
+import Coding from 'components/home/Coding'
 
 export default function Home() {
 	return (
@@ -20,6 +21,7 @@ export default function Home() {
 
 			<div className='pt-[120px] flex flex-col gap-[240px]'>
 				<Skills />
+				<Coding />
 				<Projects />
 				<Education />
 				<Langauages />
