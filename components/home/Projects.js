@@ -9,7 +9,7 @@ export default function Projects() {
 		<div className='margin-wide'>
 			<div className={styles['projects']}>
 				<SectionHeader
-					title='Take a look at my works'
+					title='Take a look at my work'
 					tag='Projects'
 					description='Suspendisse tellus dictum urna ut netus'
 					imageUrl='/images/projects.png'
