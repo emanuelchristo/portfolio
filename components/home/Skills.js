@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import SectionHeader from 'components/common/SectionHeader'
 
 import styles from './skills.module.css'
@@ -53,9 +54,11 @@ export default function Skills() {
 						</div>
 					</div>
 				</div>
-				<button className='w-[180px] mx-auto mt-[64px]'>
-					Projects <img src='/icons/right-arrow.svg' />
-				</button>
+				<Link href='/#projects' passHref>
+					<button className='w-[180px] mx-auto mt-[64px]'>
+						Projects <img src='/icons/right-arrow.svg' />
+					</button>
+				</Link>
 			</div>
 		</div>
 	)

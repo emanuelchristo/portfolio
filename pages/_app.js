@@ -1,3 +1,5 @@
+import 'assets/fonts/sf-pro/sf-pro.css'
+
 import 'styles/variables.css'
 import 'styles/globals.css'
 import 'styles/text-styles.css'
