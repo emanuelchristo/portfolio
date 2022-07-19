@@ -34,6 +34,7 @@
 	font-weight: 600;
 	line-height: 1.25;
 	margin-bottom: 4px;
+	line-height: 1.125;
 }
 .skill-description {
 	color: var(--text-light);
@@ -55,6 +56,7 @@
 @media (max-width: 767px) {
 	.card {
 		padding: 24px;
+		min-height: 140px;
 	}
 	.skill-title {
 		font-size: 22px;

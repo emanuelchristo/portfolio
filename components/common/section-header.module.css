@@ -28,6 +28,7 @@
 
 @media (max-width: 639px) {
 	.header-image {
+		width: 44px;
 		margin-right: 8px;
 	}
 }
