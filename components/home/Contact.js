@@ -7,7 +7,7 @@ import styles from './contact.module.css'
 export default function Contact() {
 	return (
 		<div className='margin'>
-			<div className={styles['languages']}>
+			<div className={styles['contact']} id='contact'>
 				<SectionHeader
 					title="Let's Talk"
 					tag='Contact'

@@ -7,7 +7,7 @@ import styles from './coding.module.css'
 export default function Coding() {
 	return (
 		<div className='margin'>
-			<div className={styles['coding']}>
+			<div className={styles['coding']} id='coding'>
 				<SectionHeader
 					title={`Languages & Frameworks`}
 					tag='Coding'

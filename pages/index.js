@@ -7,6 +7,7 @@ import Contact from 'components/home/Contact'
 import Footer from 'components/home/Footer'
 import Coding from 'components/home/Coding'
 import Toolkit from 'components/home/Toolkit'
+import Hero from 'components/home/Hero'
 
 export default function Home() {
 	return (
@@ -20,7 +21,8 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='pt-[120px] flex flex-col gap-[220px] md:gap-[160px]'>
+			<div className='flex flex-col gap-[220px] md:gap-[160px]'>
+				<Hero />
 				<Skills />
 				<Coding />
 				<Toolkit />

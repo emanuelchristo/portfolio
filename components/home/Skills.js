@@ -6,7 +6,7 @@ import styles from './skills.module.css'
 export default function Skills() {
 	return (
 		<div className='margin'>
-			<div className={styles['skills']}>
+			<div className={styles['skills']} id='skills'>
 				<SectionHeader
 					title='Things I can do'
 					tag='Skills'
