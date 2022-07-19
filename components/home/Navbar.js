@@ -11,9 +11,9 @@ export default function Navbar() {
 		<nav>
 			<div className='margin-wide'>
 				<div className={styles['nav-content']}>
-					<a href='/'>
+					<Link href='/'>
 						<img className={styles['logo']} src='/logo.svg' />
-					</a>
+					</Link>
 					<ul className={styles['nav-links']}>
 						<li>
 							<Link href='/#skills'>Skills</Link>
