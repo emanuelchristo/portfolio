@@ -3,7 +3,8 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url('SF-Pro-Display-Regular.woff') format('woff');
+	src: url('SFProDisplay-Regular.woff2') format('woff2'),
+		url('SFProDisplay-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -11,7 +12,8 @@
 	font-style: normal;
 	font-weight: 500;
 	font-display: swap;
-	src: url('SF-Pro-Display-Medium.woff') format('woff');
+	src: url('SFProDisplay-Medium.woff2') format('woff2'),
+		url('SFProDisplay-Medium.woff') format('woff');
 }
 
 @font-face {
@@ -19,7 +21,8 @@
 	font-style: normal;
 	font-weight: 600;
 	font-display: swap;
-	src: url('SF-Pro-Display-Semibold.woff') format('woff');
+	src: url('SFProDisplay-Semibold.woff2') format('woff2'),
+		url('SFProDisplay-Semibold.woff') format('woff');
 }
 
 @font-face {
@@ -27,5 +30,5 @@
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	src: url('SF-Pro-Display-Bold.woff') format('woff');
+	src: url('SFProDisplay-Bold.woff2') format('woff2'), url('SFProDisplay-Bold.woff') format('woff');
 }
