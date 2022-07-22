@@ -1,5 +1,1 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.0001 9.31875H23.4939V0H4.6814V0.0875L14.0001 9.31875Z" fill="#67DBFF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.0001 9.31885H4.50635V18.6376H23.3188V18.5501L14.0001 9.31885Z" fill="#01A3FF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.50635 18.5938H13.9126V28L4.50635 18.5938Z" fill="#0162FF"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" fill-rule="evenodd" xmlns:v="https://vecta.io/nano"><path d="M14 9.319h9.494V0H4.681v.088L14 9.319z" fill="#67dbff"/><path d="M14 9.319H4.506v9.319h18.812v-.087L14 9.319z" fill="#01a3ff"/><path d="M4.506 18.594h9.406V28l-9.406-9.406z" fill="#0162ff"/></svg>
