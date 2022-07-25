@@ -9,7 +9,7 @@ export default function Langauages() {
 				<SectionHeader
 					title='I speak and understand'
 					tag='Languages'
-					description='Congue vulputate ut consequat nunc elementum amet'
+					description=''
 					imageUrl='/images/language.png'
 					type='center'
 				/>

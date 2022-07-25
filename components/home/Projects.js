@@ -11,7 +11,6 @@ export default function Projects() {
 				<SectionHeader
 					title='Take a look at my work'
 					tag='Projects'
-					description='Suspendisse tellus dictum urna ut netus'
 					imageUrl='/images/projects.png'
 					type='center'
 				/>
