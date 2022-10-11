@@ -8,6 +8,14 @@ export const projects = [
 		buttonText: '',
 	},
 	{
+		title: '🍿 Movie Night',
+		description: 'A web app that lets people watch movies and videos together',
+		tag: 'Web App',
+		link: 'https://movie-night-cris.netlify.app/',
+		imageUrl: '/images/projects/movie-night.png',
+		buttonText: '',
+	},
+	{
 		title: '🔥 Tathva CA',
 		description:
 			'Campus ambassdor site for NIT Calicut tech fest Tathva with user dashboard and leaderboard',
@@ -47,6 +55,14 @@ export const projects = [
 		tag: 'Website',
 		link: 'https://enigim.com/',
 		imageUrl: '/images/projects/enigim.png',
+		buttonText: '',
+	},
+	{
+		title: "🪀 Tathva '22 Marketing",
+		description: "Website for Tathva '22 marketing committee",
+		tag: 'UI/UX',
+		link: 'https://marketing.tathva.org/',
+		imageUrl: '/images/projects/tathva22-marketing.jpg',
 		buttonText: '',
 	},
 	{
