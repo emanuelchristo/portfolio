@@ -1,10 +1,10 @@
 export const projects = [
 	{
-		title: '🍿 Movie Night',
-		description: 'A web app that lets people watch movies and videos together',
-		tag: 'Web App',
-		link: 'https://movie-night-cris.netlify.app/',
-		imageUrl: '/images/projects/movie-night.png',
+		title: "📼 Tathva '22",
+		description: "Website for Tathva '22 techfest of NIT Calicut",
+		tag: 'Website',
+		link: 'https://www.tathva.org/',
+		imageUrl: '/images/projects/tathva22.jpg',
 		buttonText: '',
 	},
 	{
