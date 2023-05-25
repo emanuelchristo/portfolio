@@ -3,7 +3,7 @@ export const projects = [
 		title: '🍿 Movie Night',
 		description: 'A web app that lets people watch movies and videos together',
 		tag: 'BACKEND',
-		link: 'https://movie-night-cris.netlify.app/',
+		link: 'https://movienight.ecris/',
 		imageUrl: '/images/projects/movie-night.png',
 		buttonText: '',
 	},
@@ -20,8 +20,16 @@ export const projects = [
 		description:
 			'Website for Valorant tournament conducted by AV Club of NIT Calicut. Includes user dashboard and admin panel',
 		tag: 'Backend',
-		link: 'https://www.risetoradiant.ga/',
+		link: 'https://r2r.ecris.in/',
 		imageUrl: '/images/projects/rise-to-radiant.png',
+		buttonText: '',
+	},
+	{
+		title: '🔈 Audio Visual Club',
+		description: 'Website for Audio Visual Club NITC. Still work in progress',
+		tag: 'Website',
+		link: 'https://avclub.netlify.app/',
+		imageUrl: '/images/projects/avclub.jpg',
 		buttonText: '',
 	},
 	{
