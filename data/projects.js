@@ -15,15 +15,15 @@ export const projects = [
 		imageUrl: '/images/projects/tathva22.jpg',
 		buttonText: '',
 	},
-	{
-		title: '🕹 Rise to Radiant',
-		description:
-			'Website for Valorant tournament conducted by AV Club of NIT Calicut. Includes user dashboard and admin panel',
-		tag: 'Backend',
-		link: 'https://r2r.ecris.in/',
-		imageUrl: '/images/projects/rise-to-radiant.png',
-		buttonText: '',
-	},
+	// {
+	// 	title: '🕹 Rise to Radiant',
+	// 	description:
+	// 		'Website for Valorant tournament conducted by AV Club of NIT Calicut. Includes user dashboard and admin panel',
+	// 	tag: 'Backend',
+	// 	link: 'https://r2r.ecris.in/',
+	// 	imageUrl: '/images/projects/rise-to-radiant.png',
+	// 	buttonText: '',
+	// },
 	{
 		title: '🔈 Audio Visual Club',
 		description: 'Website for Audio Visual Club NITC. Still work in progress',
