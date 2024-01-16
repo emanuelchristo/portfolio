@@ -3,7 +3,7 @@ export const projects = [
 		title: '🍿 Movie Night',
 		description: 'A web app that lets people watch movies and videos together',
 		tag: 'BACKEND',
-		link: 'https://movienight.ecris.in/',
+		link: 'https://movie-night-cris.netlify.app/',
 		imageUrl: '/images/projects/movie-night.png',
 		buttonText: '',
 	},
