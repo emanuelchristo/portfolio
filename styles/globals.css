@@ -36,7 +36,8 @@ button {
 	color: #fff;
 	font-size: 19px;
 	font-weight: 600;
-	background: url('/images/blue-button-bg.svg');
+	background-image: url('/images/blue-button-bg.svg');
+	background-color: #007df2;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
